@@ -59,7 +59,7 @@ let registSchedule = (e) => {
 	}
 	
 	localStorage.setItem('todo',JSON.stringify(todoList));
-	renderSchedule(todoList.slice(0,7));
+	renderSchedule(todoList.slice(0,8));
 }
 
 let renderSchedule = (todoList) => {
